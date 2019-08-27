@@ -7814,10 +7814,10 @@ if not database:get('tshake:'..bot_id..'id:mute'..msg.chat_id_) then
 if not database:get('tshake:'..bot_id..'id:photo'..msg.chat_id_) then
 if not database:get("tshake:gr:id:text:"..bot_id..msg.chat_id_) then 
 local keko_text = {
-'صورتك فدشي 😘😔❤️  ',
-"صارلك شكد مخليه ",
+'صورتك تخبل 😘😔❤️  ',
+"يابه منور ",
 "وفالله 😔💘",
-"كشخه برب 😉💘",
+"هيبه 😉💘",
 "دغيره شبي هذ 😒",
 "عمري الحلوين 🙈💘",
 }
