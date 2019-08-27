@@ -18,6 +18,7 @@ json = dofile("./libs/JSON.lua")
 redis = (loadfile "./libs/redis.lua")()
 database = Redis.connect('127.0.0.1', 6379)
 sudos = dofile('sudo.lua')
+rdodbot = dofile ('rdodbot.lua')
 chats = {}
 day = 86400
 bot_iid = {string.match(token, "^(%d+)(:)(.*)")}
