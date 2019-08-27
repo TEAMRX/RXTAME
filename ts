@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-cd RXTAME
-screen -S RXTAME -X kill
-screen -S RXTAME ./RX
+cd Tshake
+screen -S Tshake -X kill
+screen -S Tshake ./
